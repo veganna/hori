@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item {
+    overflow: hidden !important;
+}
+
+.item img {
+    width: 110vw;
+}
+.owl-carousel .owl-item {
+    height: 100%;
+}
+
+.p-title{
+    text-align: center;
+    padding: 26px;
+    margin-top: -110px;
+}

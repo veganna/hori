@@ -1,0 +1,580 @@
+{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="Horizon Development" content="Horizon Software Development"/>
+        <!-- Favicons -->
+        <link rel="shortcut icon" href="{% static 'img/favicon.png' %}">
+        <link rel="apple-touch-icon" href="{% static 'img/favicon_60x60.png' %}">
+        <link rel="apple-touch-icon" sizes="76x76" href="{% static 'img/favicon_76x76.png' %}">
+        <link rel="apple-touch-icon" sizes="120x120" href="{% static 'img/favicon_120x120.png' %}">
+        <link rel="apple-touch-icon" sizes="152x152" href="{% static 'img/favicon_152x152.png' %}">
+        <!-- description -->
+        <meta
+            name="description"
+            content="Horizon Software Development"/>
+        <!-- keywords -->
+        <meta
+            name="keywords"
+            content="Django, Full Stack, Python, Business Solutions"/>
+        <title>Horizon Dev</title>
+        <!-- Bootstrap 4.1.3 -->
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <!-- Normalize.css' %} -->
+        <link rel="stylesheet" href="{% static 'css/plugins/normalize.css' %}">
+        <!-- Animate.css' %} -->
+        <link rel="stylesheet" href="{% static 'css/plugins/animate.css' %}">
+        <!-- Magnific Popup -->
+        <link rel="stylesheet" href="{% static 'css/plugins/magnific-popup.css' %}">
+        <!-- Font Awesome 4.7 -->
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/cssfont-awesome.min.css" rel="stylesheet">
+        <!-- Linea-basic -->
+        <link rel="stylesheet" href="{% static 'css/plugins/linea-basic.css' %}">
+        <!-- Google Font -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900"
+            rel="stylesheet">
+        <!-- Main Css-->
+        <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    </head>
+    <body>
+        <!-- Page Loading -->
+        <div class="se-pre-con"></div>
+
+        <!-- ==== Start Navbar ==== -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dar fixed-top">
+            <div class="container">
+                <!-- Brand-->
+                <a class="navbar-brand" href="#"><img src="{% static 'img/logo.png' %}" alt="logo"></a>
+                <!-- Button -->
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Nav Links -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#slider">Home <span class="sr-only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#team">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- ==== End Navbar ==== -->
+
+        <!-- ==== Start Slider ==== -->
+        <section class="slider" id="slider">
+
+            <div class="content text-center">
+
+                <h1>Fullstack Development Agency</h1>
+                <p>We are a team of passionate software developers dedicated to creating enterprise business solutions &
+                    <br>
+                    fullstack web development services.
+                </p>
+                <a href="#contact" class="btn">Get Started</a>
+            </div>
+            <!-- Particles JS -->
+            <div id="particles-js" class="particels"></div>
+        </section>
+        <!-- ==== End Slider ==== -->
+
+        <!-- ==== Start About Us ==== -->
+        <section class="about-us" id="about">
+            <div class="container text-center">
+                <div class="heading">
+                    <i class="fa fa-snowflake-o" aria-hidden="true"></i>
+                    <h2 style = "font-size: 2.6em;">Our
+                        <span>Story</span></h2>
+                    <p>We know that bringing you the right tools can save you both time and money. That is why we specialize in creating enterprise business solutions that fit your needs. It is our job to create websites and tools that will save you time and money, giving you the ability to focus more on what matters.
+                    </p>
+                </div>
+
+                <div class="row">
+                    <!-- Box-1 -->
+                    <div class="col-md-4">
+                        <div class="box">
+                            <span class="icon icon-basic-settings"></span>
+                            <div class="line m-auto"></div>
+                            <h3>Custom Solutions</h3>
+                            <p>We are experts at automating business workflows. Everything from data management, marketing, customer service, platform integration and more.</p>
+                        </div>
+                    </div>
+                    <!-- Box-2 -->
+                    <div class="col-md-4">
+                        <div class="box">
+                            <span class="icon icon-basic-laptop"></span>
+                            <div class="line m-auto"></div><!-- Button -->
+                            <h3>Full Stack Development</h3>
+                            <p>Need a website or sales funnel? Want a dashboard to display your data? No problem. We will design, build and manage all of your website needs. </p>
+                        </div>
+                    </div>
+                    <!-- Box-3 -->
+                    <div class="col-md-4">
+                        <div class="box">
+                            <span class="icon icon-basic-gear"></span>
+                            <div class="line m-auto"></div>
+                            <h3>100% Scalable</h3>
+                            <p>We know that businesses grow. That is why we build solutions that grow with you. Weather it is managing small or large volumes we got you covered. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==== End About Us ==== -->
+
+        <!-- ==== Start Some Facts ==== -->
+        <section class="some-facts">
+
+            <div class="container text-center">
+
+                <h1 style = "font-size: 2.6em; margin: 0.67em 0; padding-top: 40; padding-bottom: 20;">Our Vision</h1>
+                <div class="row">
+
+                   <p>It is our goal to bring quality software solutions to companies worldwide. Our job is to find and build software solutions that saves your company time and money giving you peace of mind.  </p>
+                </div>
+            </div>
+        </section>
+        <!-- ==== End Some Facts ==== -->
+
+        <!-- ==== Start Services ==== -->
+        <section class="services" id="services">
+            <div class="container text-center">
+                <div class="heading">
+                    <h2 style = "font-size: 2.6em;">Our
+                        <span>Services</span></h2>
+                    <p>We offer a wide range of business enterprise solutions. Everything from automation, web development, data management and custom solutions. <br> It is our job to bring your vision to life giving you the freedom to relax.
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <!-- Box-1 -->
+                            <div class="col-sm-6 wow fadeIn">
+                                <div class="box">
+                                    <span class="icon icon-basic-gear"></span>
+                                    <div class="line m-auto"></div>
+                                    <h3>Websites</h3>
+                                    <p>Full stack Django, SQL and Javascript website design and development.</p>
+                                </div>
+                            </div>
+                            <!-- Box-2 -->
+                            <div class="col-sm-6 wow fadeIn">
+                                <div class="box">
+                                    <span class="icon icon-basic-joypad"></span>
+                                    <div class="line m-auto"></div>
+                                    <h3>Automation</h3>
+                                    <p>Fully customizable automated business solutions built in Python and SQL.</p>
+                                </div>
+                            </div>
+                            <!-- Box-3 -->
+                            <div class="col-sm-6 wow fadeIn">
+                                <div class="box">
+                                    <span class="icon icon-basic-pencil-ruler-pen"></span>
+                                    <div class="line m-auto"></div>
+                                    <h3>Data Management</h3>
+                                    <p>Large and small database management and tracking solutions.</p>
+                                </div>
+                            </div>
+                            <!-- Box-4 -->
+                            <div class="col-sm-6 wow fadeIn">
+                                <div class="box">
+                                    <span class="icon icon-basic-video"></span>
+                                    <div class="line m-auto"></div>
+                                    <h3>Custom Solutions</h3>
+                                    <p>If you can imagine it we can build it! Contact us about your project today.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Image -->
+                    <div class="col-lg-6">
+                        <img src="{% static 'img/services.jpg' %}" alt="service image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==== End Services ==== -->
+
+        <!-- ==== Start Get Started ==== -->
+        <section class="get-started">
+            <div class="container text-center">
+                <div class="content">
+                    <h2 style="font-size: 2.6em;">Ready to get started? Contact us!</h2>
+                    <p>Contact us today to get a free quote on your project. </p>
+                    <span style="font-size: 2.6em;" class="icon icon-basic-mail-open-text"></span><br><br>
+                    <a href="#contact" class="btn">Contact Us</a>
+                </div>
+            </div>
+        </section>
+        <!-- ==== End Get Started ==== -->
+
+        <!-- ==== Start Portfolio ==== -->
+        <section class="portfolio" id="portfolio">
+            <div class="container text-center">
+                <div class="heading">
+                    <span class="icon icon-basic-pencil-ruler" style="font-size: 50px;"></span><br><br>
+                    <h2 style="font-size: 2.6em;">Creative
+                        <span>Portfolio</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="button-group filter-button-group text-center m-auto">
+                            <button data-filter="*" class="active">All</button>
+                            <button data-filter=".website">Website</button>
+                            <button data-filter=".automation">Automation</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row grid">
+                    <!-- Image-1 -->
+                    <div class="col-lg-4 col-md-6 grid-item website">
+                        <div class="single-portfolio-item "><a href="{% static 'img/portfolio/work01.jpg'%}" class="image-link">
+                            <img src="{% static 'img/portfolio/work01.jpg'%}" alt="" class="img-fluid">
+                            <div class="overlay text-center">
+                                <div class="content">
+                                    <h3>Internet Sales Company</h3>
+                                    <p>Full Stack Development</p>
+
+                                        <span class="icon icon-basic-picture-multiple"></span>
+                                </div>
+                            </div></a>
+                        </div>
+                    </div>
+                    <!-- Image-2 -->
+                    <div class="col-lg-4 col-md-6 grid-item website">
+                        <div class="single-portfolio-item"><a href="{% static 'img/portfolio/work02.jpg'%}" class="image-link">
+                            <img src="{% static 'img/portfolio/work02.jpg'%}" alt="" class="img-fluid">
+                            <div class="overlay text-center">
+                                <div class="content">
+                                    <h3>Touring Musician</h3>
+                                    <p>Full Stack Development</p>
+
+                                        <span class="icon icon-basic-picture-multiple"></span>
+                                </div>
+                            </div></a>
+                        </div>
+                    </div>
+                    <!-- Image-3 -->
+                    <div class="col-lg-4 col-md-6 grid-item automation">
+                        <div class="single-portfolio-item">
+                            <img src="{% static 'img/portfolio/work03.jpg'%}" alt="" class="img-fluid">
+                                    <a href="{% static 'img/portfolio/work03.jpg'%}" class="image-link">
+                            <div class="overlay text-center">
+                                <div class="content">
+                                    <h3>Real Estate Property Management</h3>
+                                    <p>Automation</p>
+                                        <span class="icon icon-basic-picture-multiple"></span>
+                                </div>
+                            </div></a>
+                        </div>
+                    </div>
+                    <!-- Image-4 -->
+                    <div class="col-lg-4 col-md-6 grid-item website">
+                        <div class="single-portfolio-item">
+                                    <a href="{% static 'img/portfolio/work04.jpg'%}" class="image-link">
+                            <img src="{% static 'img/portfolio/work04.jpg'%}" alt="" class="img-fluid">
+                            <div class="overlay text-center">
+                                <div class="content">
+                                    <h3>Marketing Agency Website</h3>
+                                    <p>Full Stack Development</p>
+                                        <span class="icon icon-basic-picture-multiple"></span>
+                                </div>
+                            </div></a>
+                        </div>
+                    </div>
+                    <!-- Image-5 -->
+                    <div class="col-lg-4 col-md-6 grid-item automation">
+                        <div class="single-portfolio-item">
+                                    <a href="{% static 'img/portfolio/work05.jpg'%}" class="image-link">
+                            <img src="{% static 'img/portfolio/work05.jpg'%}" alt="" class="img-fluid">
+                            <div class="overlay text-center">
+                                <div class="content">
+                                    <h3>Linked In Management</h3>
+                                    <p>Automation</p>
+                                        <span class="icon icon-basic-picture-multiple"></span>
+                                </div>
+                            </div></a>
+                        </div>
+                    </div>
+                    <!-- Image-6 -->
+                    <div class="col-lg-4 col-md-6 grid-item automation">
+                        <div class="single-portfolio-item"><a href="{% static 'img/portfolio/work06.jpg'%}" class="image-link">
+                            <img src="{% static 'img/portfolio/work06.jpg'%}" alt="" class="img-fluid">
+                            <div class="overlay text-center">
+                                <div class="content">
+                                    <h3>Dropshipping Sales Management</h3>
+                                    <p>Automation</p>
+
+                                        <span class="icon icon-basic-picture-multiple"></span>
+                                </div>
+                            </div></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- ==== End Portfolio ==== -->
+        <!-- ==== Start Want Work ==== -->
+        <section class="want-work">
+            <div class="container text-center">
+                <div class="content">
+
+                    <h2 style="font-size:2.6em;">Want to work with us?</h2>
+                    <p>Need a custom solution for your business?<br>No problem. Feel free to contact us and we will get back with you shortly!</p>
+
+                    <a href="#contact" class="btn">Start Now!</a>
+                </div>
+            </div>
+        </section>
+        <!-- ==== End Want Work ==== -->
+        <!-- ==== Start Our Team ==== -->
+        <section class="our-team" id="team">
+            <div class="container text-center">
+                <div class="heading">
+                    <span class="icon icon-basic-case" style="font-size:50px;"></span><br>
+                    <h2 style="font-size:2.6em;">Our
+                        <span>Founders</span></h2>
+                    <p>Here at Horizon we are dedicated to providing excellence with everything we do. It is our duty to give you quality business solutions in a timely fashion. That is why our core team members personally oversee every project that we work on.
+                    </p>
+                </div>
+
+                <div class="row">
+                    <!-- Box-1 -->
+                    <div class="col-md-6">
+                        <div class="box">
+                            <div class="image">
+                                <img src="{% static '/img/team/mateus.jpg' %}" alt="team" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h3>Mateus Neves</h3>
+                                <h4>Co-Founder<br>Senior Fullstack Developer</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Box-2 -->
+                    <div class="col-md-6">
+                        <div class="box"><a href="{% url 'austinresume' %}">
+                            <div class="image">
+                                <img src="{% static '/img/team/austin.jpg' %}" alt="team" class="img-fluid">
+                            </div>
+                            <div class="info">
+                                <h3>Austin Reed</h3>
+                                <h4>CEO & Co-Founder<br>Python & Django Developer</h4>
+                            </div></a>
+                        </div>
+                    </div>
+                    <!-- Box-3 -->
+
+                </div>
+            </div>
+        </section>
+        <!-- ==== End Our Team ==== -->
+
+        <!-- ==== Start Testimonials ==== -->
+        <section class="testimonials" id="testimonials">
+            <div class="container text-center">
+                <h2 style="font-size:2.6em;">Testimonials</h2>
+                <div class="row text-center">
+                    <div class="col-md-12">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators-->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+
+                            <div class="carousel-inner">
+                                <!-- Item-1 -->
+                                <div class="carousel-item active text-center">
+                                    <img src="{% static 'img/testimonials.png' %}" alt="" class="colon">
+                                    <p>This is the first time I have hired a programmer and I can honestly say that I am impressed with his programming skills. He took my idea and exceeded my expectations. He even added a bit of extra functionality to the program that made it much better for free. I will be coming back for more work in the future.</p>
+                                    <a href="https://www.linkedin.com/in/devon-vert-b5a4bb71/" target="_blank"><img src="{% static 'img/avatar01.jpg' %}" alt="" class="center-block team">
+                                    <h3>Devon Vert</h3>
+                                        <h4>Digital Marketer</h4></a>
+                                </div>
+                                <!-- Item-2 -->
+                                <div class="carousel-item text-center">
+                                    <img src="{% static 'img/testimonials.png' %}" alt="" class="colon">
+                                    <p>Austin had really good communication and vision for the website I needed. He provided high quality results before the scheduled end time. The site has been live for well over a year now and it is still working like a charm. Highly Recommended.</p>
+                                    <a href="https://speedy-internet.com" target="_blank"><img src="{% static 'img/avatar03.jpg' %}" alt="" class="center-block team">
+                                    <h3>Speedy Internet</h3>
+                                        <h4>Cellphone Service Company</h4></a>
+                                </div>
+                                <!-- Item-3 -->
+                                <div class="carousel-item text-center">
+                                    <img src="{% static 'img/testimonials.png' %}" alt="" class="colon">
+                                    <p>I have worked with Austin before and he continues to deliver solutions for what we need. He works hard to deliver projects in a timely manner and communicates effectively. Thanks Austin!</p>
+                                    <a href="https://www.linkedin.com/in/tejasrakle/" target="_blank"><img src="{% static 'img/avatar04.jpg' %}" alt="" class="center-block team">
+                                    <h3>Tejas Rakle</h3>
+                                        <h4>CEO at ThinkWrite Digital Consultancy</h4></a>
+                                </div>
+
+                            </div>
+                            <a
+                                class="carousel-control-prev"
+                                href="#carouselExampleIndicators"
+                                role="button"
+                                data-slide="prev">
+                                <span class="fa fa-angle-left icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a
+                                class="carousel-control-next"
+                                href="#carouselExampleIndicators"
+                                role="button"
+                                data-slide="next">
+                                <span class="fa fa-angle-right icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==== End Testimonials ==== -->
+
+
+        <!-- ==== Start Contact Us ==== -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="heading text-center">
+                    <span style="font-size: 50px" class="icon icon-basic-mail-open-text"></span><br>
+                    <h2 style="font-size: 2.6em;">Contact
+                        <span>Us</span></h2>
+                    <p>
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="title">
+                            <h3>Contact Us :</h3>
+                            <p>Do you have a website or custom business solution that needs to be built? Please feel free to fill out the form and we will get in touch with you shortly.</p>
+                        </div>
+                        <div class="content">
+                            <!-- Info-1 -->
+                            <div class="info">
+                                <span class="icon icon-basic-ipod"></span>
+                                <h4 class="d-inline-block">Phone Number(Whatsapp):
+                                    <br>
+                                    <span>+1(279)356-6001</span></h4>
+                            </div>
+                            <!-- Info-2 -->
+                            <div class="info">
+                                <span class="icon icon-basic-mail"></span>
+                                <h4 class="d-inline-block">Email Address:
+                                    <br>
+                                    <span>sales@horizon-development.com</span></h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-7">
+
+                        <form>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" placeholder="Name">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="email" class="form-control" placeholder="Email">
+                                </div>
+                                 <div class="col-sm-6">
+                                    <input type="number" class="form-control" placeholder="Phone Number">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input type="text" class="form-control" placeholder="Subject">
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="3" id="comment" placeholder="Message"></textarea>
+                            </div>
+                            <button class="btn btn-block" type="submit">Send Now!</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ==== End Contact Us ==== -->
+
+        <!-- ==== Start Footer ==== -->
+        <footer class="footer">
+            <div class="container text-center">
+                <div class="logo">
+                    <img src="{% static 'img/logo.png' %}" alt="">
+                </div>
+                <div class="social-icons">
+                    <a href="#0">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                    </a>
+                    <a href="#0">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                    </a>
+                    <a href="#0">
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                    <a href="#0">
+                        <i class="fa fa-behance" aria-hidden="true"></i>
+                    </a>
+                    <a href="#0">
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                    </a>
+                </div>
+                <p>Horizon Development © 2021</p>
+            </div>
+        </footer>
+        <!-- ==== End Footer ==== -->
+
+        <!-- ==== JavaScript ==== -->
+        <script src="{% static 'js/jquery-3.6.0.js' %}"></script>
+        <!-- Bootstrap 4.1.3 -->
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'js/popper.min.js' %}"></script>
+        <!-- Isotope -->
+        <script src="{% static 'js/plugins/isotope.pkgd.min.js' %}"></script>
+        <script src="{% static 'js/plugins/imagesloaded.pkgd.min.js' %}"></script>
+        <!-- Couner Up-->
+        <script src="{% static 'js/plugins/jquery.waypoints.min.js' %}"></script>
+        <script src="{% static 'js/plugins/jquery.counterup.min.js' %}"></script>
+        <!-- Magnific Popup-->
+        <script src="{% static 'js/plugins/magnific-popup.min.js' %}"></script>
+        <!-- Wow Js Animations -->
+        <script src="{% static 'js/plugins/wow.min.js' %}"></script>
+        <!-- Particles JS-->
+        <script src="{% static 'js/plugins/particles.min.js' %}"></script>
+        <script src="{% static 'js/plugins/app.js' %}"></script>
+        <!-- Modernizr -->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+        <!-- Main Js -->
+        <script src="{% static 'js/main.js' %}"></script>
+    </body>
+</html>
